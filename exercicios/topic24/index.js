@@ -1,0 +1,20 @@
+// function = define code once, and use it many times.
+//            to perform some code, call the function name
+
+startProgam()
+
+function startProgam(){
+    let userName = "Bro"
+    let age = 21
+
+    happyBirthday(userName, age)
+}
+
+
+function happyBirthday(userName, age){
+    console.log("Happy birthday to you!")
+    console.log("Happy birthday to you!")
+    console.log("Happy birthday dear", userName)
+    console.log("Happy birthday to you!")
+    console.log("You are", age, "years old!")
+}

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    width: 97vw;
+    height: 97vh;
+}
+
+body {
+    position: relative;
+    background-color: rgba(0, 255, 255, 0.219);
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#game {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    padding: 30px;
+    margin: 0px;
+}
+
+p {
+    padding-bottom: 40px;
+}
+
+label {
+    display: block;
+    padding-bottom: 20px;
+}
