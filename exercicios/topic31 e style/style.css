@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+
+body {
+    width: 98vw;
+    height: 98vh;
+    background-image: linear-gradient(320deg, darkblue, darkred);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+#converter {
+    width: 200px;
+    height: 285px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#converter2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#textBox {
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(179, 219, 253);
+    height: 20px;
+}
+
+label#texto {
+    position: relative;
+    padding-bottom: 4px;
+}
+
+
+button {
+    height: 30px;
+    width: 120px;
+    background-color: rgb(179, 219, 253);
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#tempLabel {
+    position: absolute;
+    margin-top: 25px;
+    text-align: center;
+}
